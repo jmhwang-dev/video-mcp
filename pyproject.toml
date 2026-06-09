@@ -1,0 +1,9 @@
+[project]
+name = "video-scene-analysis"
+version = "0.1.0"
+description = "Download a YouTube video (video-only) and detect scene-transition points (CPU/GPU)."
+requires-python = ">=3.12"
+dependencies = [
+    "scenedetect>=0.7",
+    "yt-dlp>=2026.3.17",
+]

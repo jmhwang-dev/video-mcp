@@ -1,0 +1,21 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Downloaded videos (kept local, not committed)
+*.mp4
+*.mkv
+*.webm
+*.m4v
+*.mov
+*.part
+*.ytdl
+
+# Detection outputs
+scenes.csv
+cuts.json
+scenes_images/
+clips/
+*.stats.csv
